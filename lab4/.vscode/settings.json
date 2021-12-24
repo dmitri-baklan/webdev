@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "fcgi_config.h": "c",
+        "fcgi_stdio.h": "c",
+        "fcgiapp.h": "c"
+    }
+}

@@ -1,0 +1,4 @@
+compile with 
+gcc lab4.c -lfcgi -O3 -Wall -Wextra -pedantic -std=c11
+Add 
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib

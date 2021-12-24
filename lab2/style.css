@@ -1,0 +1,54 @@
+
+
+p {
+    background-color: yellow;
+}
+
+div > p {
+    background-color: blue;
+}
+
+div > h2 {
+    background-color: violet;
+}
+
+p, h2 {
+    background-color: teal;
+}
+
+div > h2, p {
+    background-color: gray;
+}
+
+#test {
+    background-color: khaki;
+}
+
+#test, h2 {
+    background-color: aquamarine;
+}
+
+.www {
+    background-color: azure;
+}
+
+p.www {
+    background-color: brown;
+}
+
+#test, .xxx {
+    background-color: lightcoral;
+}
+
+p.test, .www {
+    background-color: lightsalmon;
+}
+
+#test > p.www {
+    background-color: magenta;
+}
+
+#test > i {
+    background-color: maroon;
+}
+

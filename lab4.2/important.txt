@@ -1,0 +1,7 @@
+compile with 
+gcc lab4.c -lfcgi -O3 -Wall -Wextra -pedantic -std=c11 -o fcgi
+Add 
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
+run as
+ // # echo "$(cgi-fcgi -connect 127.0.0.1:49311 example)"
